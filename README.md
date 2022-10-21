@@ -3,7 +3,7 @@
 ## 20190711
 
 ## hardware
-- On Arduino IDE, Select "Tools"->"Borad"->"Boards Manager..."
+ On Arduino IDE, Select "Tools"->"Borad"->"Boards Manager..."
 
   Install MightlyCore by MCUdude
   
@@ -12,7 +12,7 @@
      rename Ethernet Ethernet.nouse
 
 ## libraries
-- Download and add the following libs:
+ Download and add the following libs:
 
   Ethernet  from https://github.com/PaulStoffregen/Ethernet
   
@@ -27,12 +27,12 @@
      here edit NexConfig.h and define nexSerial as Serial1
 
 ## tricks
-- get the avrdude command executed by IDE, select "File"->"Preferences"
+ Get the avrdude command executed by IDE, select "File"->"Preferences"
 
   Tick "upload" box in "ShowVerbose output during:"
 
 ## avrdude
-- Windows (example):
+ Windows (example):
 
 C:\Program Files (x86\Arduino\hardware\tools\avr/bin/avrdude
 -CC:\Users\benigno\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\2.0.2/avrdude.conf
@@ -44,7 +44,7 @@ C:\Program Files (x86\Arduino\hardware\tools\avr/bin/avrdude
 -D
 -Uflash:w:C:\Users\benigno\AppData\Local\Temp\arduino_build_375178/4ventino-0.1-20190627.ino.hex:i
 
-- Linux (example):
+ Linux (example):
 
 /home/benigno/arduino-1.8.9/hardware/tools/avr/bin/avrdude
 -C/home/benigno/.arduino15/packages/MightyCore/hardware/avr/2.0.2/avrdude.conf
