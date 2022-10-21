@@ -6,6 +6,7 @@
 On Arduino IDE, Select "Tools"->"Board"->"Boards Manager..."
 
 ### Install MightlyCore by MCUdude
+from https://github.com/MCUdude/MightyCore
  
 On Linux, in ~/.arduino15/packages/MightyCore/hardware/avr/2.0.2/libraries/
 
