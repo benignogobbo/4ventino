@@ -1,9 +1,9 @@
 # 4ventino
 
-## 20190711
+#### 2019-07-11
 
 ## hardware
-On Arduino IDE, Select "Tools"->"Borad"->"Boards Manager..."
+On Arduino IDE, Select "Tools"->"Board"->"Boards Manager..."
 
 ### Install MightlyCore by MCUdude
  
