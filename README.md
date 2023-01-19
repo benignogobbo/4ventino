@@ -8,7 +8,7 @@ On Arduino IDE, Select "Tools"->"Board"->"Boards Manager..."
 ### Install MightlyCore by MCUdude
 from https://github.com/MCUdude/MightyCore
  
-On Linux, in ~/.arduino15/packages/MightyCore/hardware/avr/2.0.2/libraries/
+On Linux, in ~/.arduino15/packages/MightyCore/hardware/avr/2.2.0/libraries/
 
 rename Ethernet Ethernet.nouse
 
@@ -48,7 +48,7 @@ C:\Program Files (x86\Arduino\hardware\tools\avr/bin/avrdude
 ### Linux (example):
 
 /home/benigno/arduino-1.8.9/hardware/tools/avr/bin/avrdude
--C/home/benigno/.arduino15/packages/MightyCore/hardware/avr/2.0.2/avrdude.conf
+-C/home/benigno/.arduino15/packages/MightyCore/hardware/avr/2.2.0/avrdude.conf
 -v
 -patmega1284p
 -carduino
