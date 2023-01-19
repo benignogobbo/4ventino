@@ -47,8 +47,8 @@ C:\Program Files (x86\Arduino\hardware\tools\avr/bin/avrdude
 
 ### Linux (example):
 
-/home/benigno/arduino-1.8.9/hardware/tools/avr/bin/avrdude
--C/home/benigno/.arduino15/packages/MightyCore/hardware/avr/2.2.0/avrdude.conf
+avrdude
+-C/home/belle2/.arduino15/packages/MightyCore/hardware/avr/2.2.0/avrdude.conf
 -v
 -patmega1284p
 -carduino
